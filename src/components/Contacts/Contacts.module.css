@@ -1,0 +1,23 @@
+.contacts_list {
+    padding: 0;
+    margin-left: 30px;
+}
+
+.contact_item{
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(69, 69, 209);
+}
+
