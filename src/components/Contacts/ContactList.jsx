@@ -1,7 +1,11 @@
 import propTypes from 'prop-types';
 import { Contacts } from './Contacts';
-import css from './Contacts.module.css'
-export const ContactList = ({ deleteContactProps, onChangeProps, findItems }) => {
+import css from './Contacts.module.css';
+export const ContactList = ({
+  deleteContactProps,
+  onChangeProps,
+  findItems,
+}) => {
   return (
     <div>
       <label>
@@ -16,8 +20,10 @@ export const ContactList = ({ deleteContactProps, onChangeProps, findItems }) =>
         />
       </label>
       <ul className={css.contacts_list}>
-        <Contacts  findItems={findItems}
-          deleteContactProps={ deleteContactProps } />
+        <Contacts
+          findItems={findItems}
+          deleteContactProps={deleteContactProps}
+        />
       </ul>
     </div>
   );
